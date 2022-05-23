@@ -1,0 +1,13 @@
+#!/bin/bash
+#Given 2 Integers, identify whether x>y, x<y or x=y.
+#take inputs from user
+read x
+read y
+#condition to compare numbers and display relevant message
+if ((x==y)); then
+     echo "X is equal to Y"
+     elif ((x>y));then
+     echo "X is greater than Y"
+     else
+     echo "X is less than Y"
+fi
